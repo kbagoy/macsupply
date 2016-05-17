@@ -1,5 +1,91 @@
-.grn-gradient {
-    background: #FFF; /* fallback for old browsers */
-    background: -webkit-linear-gradient(#FFF, #00AF51);/* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#FFF, #00AF51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*Global Styles */
+.green {
+	background-color: #00AF51;
+	color: #fff;
 }
+
+.navbar {
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #00AF51;
+}
+
+.grn-gradient {
+    background: #00AF51; /* fallback for old browsers */
+    background: -webkit-linear-gradient(#00AF51, #FFF);/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#00AF51, #FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section {
+	padding: 75px 0;
+	margin: 0;
+	min-height: 400px;
+}
+
+/*Hero */
+
+.jumbotron {
+	background: url('../img/MACS-Supply-industry.png') no-repeat;
+	background-size: cover; 
+	max-height: 650px;
+	color: #FFF;
+}
+
+.jumbotron .container {
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 20px 100px;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	padding: 100px;
+}
+
+.jumbotron img {
+	padding: 50px;
+}
+
+.why-ico { 
+	width: 90%;
+	margin: auto;
+}
+
+
+.down {
+    bottom: -75px;
+    position: relative;
+    color: #dedede;
+}
+
+/* Partners */
+
+#partners .row {
+	margin-top: 20px;
+}
+
+/* Products */
+
+#products ul {
+	padding-left: 0;
+}
+
+#products h5 {
+	background-color: #00AF51;
+	color: #fff;
+	padding:10px;
+	text-align: center;
+}
+
+#products img {
+	display: inline;
+	padding: 20px;
+}
+
+
+
