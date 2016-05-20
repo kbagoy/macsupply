@@ -1,7 +1,16 @@
 /*Global Styles */
-.green {
+h1 {
+	color: #00AF51;
+	text-transform: uppercase;
+}
+
+.green, .green h1 {
 	background-color: #00AF51;
 	color: #fff;
+}
+
+.ltgry {
+	background-color: #ecf0f1;
 }
 
 .navbar {
@@ -23,7 +32,7 @@
 }
 
 section {
-	padding: 75px 0;
+	padding: 50px 0;
 	margin: 0;
 	min-height: 400px;
 }
@@ -56,9 +65,8 @@ section {
 	margin: auto;
 }
 
-
 .down {
-    bottom: -75px;
+    bottom: -50px;
     position: relative;
     color: #dedede;
 }
@@ -66,7 +74,7 @@ section {
 /* Partners */
 
 #partners .row {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 /* Products */
