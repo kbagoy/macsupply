@@ -1,10 +1,10 @@
 /*Global Styles */
-h1 {
+h2 {
 	color: #00AF51;
 	text-transform: uppercase;
 }
 
-.green, .green h1 {
+.green, .green h2 {
 	background-color: #00AF51;
 	color: #fff;
 }
@@ -44,6 +44,8 @@ section {
 	background-size: cover; 
 	max-height: 650px;
 	color: #FFF;
+	margin-bottom: 0;
+	padding: 100px;
 }
 
 .jumbotron .container {
@@ -51,10 +53,6 @@ section {
 	padding: 20px 100px;
 }
 
-.jumbotron {
-	margin-bottom: 0;
-	padding: 100px;
-}
 
 .jumbotron img {
 	padding: 50px;
@@ -73,7 +71,7 @@ section {
 
 /* Partners */
 
-#partners .row {
+#partners .row, #contact .row {
 	margin-top: 50px;
 }
 
@@ -86,22 +84,32 @@ section {
 #products ul li {
 	border-bottom: 1px solid #cdcdcd;
 	list-style: none;
-	padding: 5px 0;
+	padding: 5px;
 }
 
 #products h5 {
-	background-color: #00AF51;
-	color: #fff;
-	padding:10px;
-	text-align: center;
+	color: #00AF51;
+	padding:10px 0;
+	border-bottom: 2px solid #00AF51;
 }
 
 #products img {
 	display: inline;
-	padding: 20px;
-	float: left;
-	margin-right: 20px;
 	background: #fff;
+	padding: 5px;
+}
+
+.cta {
+	background-color: #00AF51;
+	color: #fff;
+	margin: 0;
+	padding: 10px 0 20px;
+	position: relative;
+	bottom: -50px;
+}
+
+.cta a, #contact a {
+	color: #fff;
 }
 
 
