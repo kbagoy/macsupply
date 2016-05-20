@@ -19,14 +19,17 @@ h2 {
 }
 
 .navbar {
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.7);
 }
 
-.navbar a {
+.navbar-nav {
+	float: right;
+}
+.navbar-nav > li > a {
 	color: #fff;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     background-color: #00AF51;
 }
 
@@ -50,12 +53,12 @@ section {
 	max-height: 650px;
 	color: #FFF;
 	margin-bottom: 0;
-	padding: 100px;
+	padding: 5%;
 }
 
 .jumbotron .bg {
 	background-color:rgba(0, 0, 0, 0.5);
-	padding: 30px;
+	padding: 5%;
 }
 
 .jumbotron img {
@@ -117,8 +120,12 @@ section {
 }
 
 @media (max-width: 767px) {
-.jumbotron .bg {
-	padding: 10px;
-}
+	.jumbotron .bg {
+		margin-top: 15%;
+		padding: 10px;
+	}
+	.navbar-collapse > ul {
+		float: none;
+	}
 }
 
