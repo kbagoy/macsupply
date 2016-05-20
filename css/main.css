@@ -127,6 +127,9 @@ section {
 	.navbar-inverse .navbar-nav {
 	float: none;
 	text-align: center;
-}
+	}
+	.bg h1, .bg p {
+		text-align: center;
+	}
 }
 
