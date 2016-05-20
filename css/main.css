@@ -22,14 +22,14 @@ h2 {
 	background-color:rgba(0, 0, 0, 0.7);
 }
 
-.navbar-nav {
+.navbar-inverse .navbar-nav {
 	float: right;
 }
-.navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
 	color: #fff;
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     background-color: #00AF51;
 }
 
@@ -124,8 +124,9 @@ section {
 		margin-top: 15%;
 		padding: 10px;
 	}
-	.navbar-collapse > ul {
-		float: none;
-	}
+	.navbar-inverse .navbar-nav {
+	float: none;
+	text-align: center;
+}
 }
 
