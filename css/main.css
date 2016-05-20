@@ -24,9 +24,14 @@ h2 {
 
 .navbar-inverse .navbar-nav {
 	float: right;
+	margin-right: 3%;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
+}
+
+.navbar-brand {
+	margin-left: 5%;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -117,6 +122,26 @@ section {
 
 .cta a, #contact a {
 	color: #fff;
+}
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 767px) {
