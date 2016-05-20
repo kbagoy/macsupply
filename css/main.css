@@ -1,4 +1,9 @@
 /*Global Styles */
+
+h1 {
+	margin-top: 20px;
+	}
+
 h2 {
 	color: #00AF51;
 	text-transform: uppercase;
@@ -48,14 +53,13 @@ section {
 	padding: 100px;
 }
 
-.jumbotron .container {
+.jumbotron .bg {
 	background-color:rgba(0, 0, 0, 0.5);
-	padding: 20px 100px;
+	padding: 30px;
 }
 
-
 .jumbotron img {
-	padding: 50px;
+	padding: 0 50px;
 }
 
 .why-ico { 
@@ -112,5 +116,9 @@ section {
 	color: #fff;
 }
 
-
+@media (max-width: 767px) {
+.jumbotron .bg {
+	padding: 10px;
+}
+}
 
